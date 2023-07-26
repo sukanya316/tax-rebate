@@ -31,12 +31,11 @@
       
     }    
     .header-items-container{
-        width: 100%;
       flex-wrap: wrap;
-     text-align: left;
+      justify-content: flex-start;
+      align-items: flex-start;
     } 
     .header-nav-item{
-        width:20%;
-        margin:2px;
+        margin:5px;
     }
 }
