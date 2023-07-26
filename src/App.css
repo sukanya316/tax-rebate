@@ -2,7 +2,11 @@
   width: 1200px;
   text-align: center;
 }
-
+@media screen and (max-width:576px) {
+  .App{
+    width: 100vw;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
