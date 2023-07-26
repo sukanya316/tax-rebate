@@ -1,0 +1,56 @@
+.contacts-header-container{
+width: 100%;
+box-sizing: border-box;
+background-color: rgb(3, 36, 62);
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 2px 30px 2px 30px;
+border: 1px solid red;
+}
+
+.display-row{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.facebook-icon{
+    height: 15px;
+    width: 15px;
+    margin: 0px 13px 2px 13px;
+}
+.twitter-icon{
+    height: 19px;
+    width: 19px;
+    margin: 8px 10px 0px 10px;
+}
+.social-icon{
+    margin: 0px 5px 0px 0px;
+    height: 13px;
+    width: 13px;
+    fill: dodgerblue;
+   
+}
+a{
+    color: white;
+    fill: whitesmoke;
+}
+p{
+    margin: 0px;
+    padding-top: 3px;
+}
+
+@media screen and (max-width:576px) {
+    .contacts-header-container{
+       
+       display: flex;
+       flex-direction: column;
+    }
+    .display-row{
+        width: 100%;
+        margin: 2px;
+        margin-bottom: 5px;
+    }   
+}
