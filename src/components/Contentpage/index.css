@@ -100,7 +100,7 @@ input{
 
 @media screen and (max-width:576px){
     .form-container{
-        height: 45vh;
+        height: 55vh;
         width: 50%;
     }
     .card-item{
